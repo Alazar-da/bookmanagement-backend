@@ -9,7 +9,7 @@ const cors = require('cors') //install
 
 
 var corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://book-management-omega.vercel.app"
 };
 
 const app = express()
