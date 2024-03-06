@@ -55,7 +55,7 @@ app.post('/Book', async (req,res)=>{
 
 
 
-mongoose.connect('mongodb+srv://alazar-da:ale123@cluster0.eki1tpt.mongodb.net/bookstore?retryWrites=true&w=majority&appName=Cluster0').then(()=>{
+mongoose.connect('mongodb+srv://alazar-da:ale123@cluster0.eki1tpt.mongodb.net/bookstore?retryWrites=true&w=majority').then(()=>{
     console.log('connected')
     app.listen(5000,()=>{
         console.log('node connnected at 5000')
