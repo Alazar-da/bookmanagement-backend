@@ -3,19 +3,19 @@ const mongoose = require('mongoose');
 //const Product = require('./models/ProductModels');
 const Book = require('./models/BookModels.js');
 
-const cookieParser = require('cookie-parser')//install
+/* const cookieParser = require('cookie-parser')//install
 const cors = require('cors') //install
 
 
 
 var corsOptions = {
   origin: "https://book-management-omega.vercel.app"
-};
+}; */
 
 const app = express()
 
-app.use(cookieParser())
-app.use(cors(corsOptions));
+/* app.use(cookieParser())
+app.use(cors(corsOptions)); */
 /* app.use(cors(corsOptions)) */
 
 app.get('/', function (req, res) {
